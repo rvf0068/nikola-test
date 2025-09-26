@@ -1,0 +1,8 @@
+output/
+cache/
+pycache/
+__pycache__/
+.doit.db*
+nikola-env/
+*~
+*.log
