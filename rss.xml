@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site</title><link>https://example.com/</link><description>This is a demo site for Nikola.</description><atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:04:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing</title><link>https://example.com/posts/testing/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+Write your post here.
+&lt;/p&gt;
+
+&lt;div id="outline-container-org2debbde" class="outline-2"&gt;
+&lt;h2 id="org2debbde"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2debbde"&gt;
+&lt;p&gt;
+This is my first post written in org-mode. It's simple and powerful!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org1e796e8" class="outline-2"&gt;
+&lt;h2 id="org1e796e8"&gt;Why org-mode?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org1e796e8"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Outlines and headings are easy.&lt;/li&gt;
+&lt;li&gt;Code blocks:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello from Python!"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org2c95cd1" class="outline-2"&gt;
+&lt;h2 id="org2c95cd1"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2c95cd1"&gt;
+&lt;p&gt;
+Excited to blog this way!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://example.com/posts/testing/</guid><pubDate>Fri, 26 Sep 2025 00:33:50 GMT</pubDate></item><item><title>Test Post</title><link>https://example.com/posts/test/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;This is a test.&lt;/p&gt;</description><category>test</category><guid>https://example.com/posts/test/</guid><pubDate>Thu, 25 Sep 2025 16:00:00 GMT</pubDate></item></channel></rss>
