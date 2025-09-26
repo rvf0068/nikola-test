@@ -33,6 +33,11 @@ jobs:
         source .venv/bin/activate
         nikola plugin -i orgmode
 
+    - name: Install hyde theme
+      run: |
+        source .venv/bin/activate
+        nikola theme -i hyde
+
     - name: Install Emacs for org-mode
       run: sudo apt update && sudo apt install -y emacs
 
