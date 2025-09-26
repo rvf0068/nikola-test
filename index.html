@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://example.com/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/testing-mathematics/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/katex-render-debug/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -68,7 +68,72 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/testing-mathematics/" class="u-url">Testing Mathematics</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/katex-render-debug/" class="u-url">KaTeX Render Debug</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Nikola Tesla
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/katex-render-debug/" rel="bookmark">
+            <time class="published dt-published" datetime="2025-09-25T19:57:13-06:00" itemprop="datePublished" title="2025-09-25 19:57">2025-09-25 19:57</time></a>
+            </p>
+                </div>
+            </header><div class="e-content entry-content">
+                    <div id="outline-container-org5bc68cf" class="outline-2">
+<h2 id="org5bc68cf">Introduction</h2>
+<div class="outline-text-2" id="text-org5bc68cf">
+<p>
+Debugging KaTeX rendering for LaTeX equations.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org21e4aba" class="outline-2">
+<h2 id="org21e4aba">Inline Math</h2>
+<div class="outline-text-2" id="text-org21e4aba">
+<p>
+This should render: \( x^2 + y^2 = z^2 \).
+Also try: \(a + b = c\).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5e88e39" class="outline-2">
+<h2 id="org5e88e39">Display Math</h2>
+<div class="outline-text-2" id="text-org5e88e39">
+<p>
+Block equation:
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+</p>
+
+<p>
+With align:
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec02b45" class="outline-2">
+<h2 id="orgec02b45">Non-Math Test</h2>
+<div class="outline-text-2" id="text-orgec02b45">
+<p>
+Price: \$5 (should not render as math).
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc1dd0a5" class="outline-2">
+<h2 id="orgc1dd0a5">Conclusion</h2>
+<div class="outline-text-2" id="text-orgc1dd0a5">
+<p>
+KaTeX should render \(...\)$ and \[...\].
+Write your post here.
+</p>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/testing-mathematics/" class="u-url">Testing Mathematics</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Nikola Tesla
@@ -110,18 +175,18 @@ Links: <a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863">Setting
 Write your post here.
 </p>
 
-<div id="outline-container-org28a4f0d" class="outline-2">
-<h2 id="org28a4f0d">Introduction</h2>
-<div class="outline-text-2" id="text-org28a4f0d">
+<div id="outline-container-org0c78a80" class="outline-2">
+<h2 id="org0c78a80">Introduction</h2>
+<div class="outline-text-2" id="text-org0c78a80">
 <p>
 This is my first post written in org-mode. It's simple and powerful!
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgbe43643" class="outline-2">
-<h2 id="orgbe43643">Why org-mode?</h2>
-<div class="outline-text-2" id="text-orgbe43643">
+<div id="outline-container-org88c2886" class="outline-2">
+<h2 id="org88c2886">Why org-mode?</h2>
+<div class="outline-text-2" id="text-org88c2886">
 <ul class="org-ul">
 <li>Outlines and headings are easy.</li>
 <li>Code blocks:</li>
@@ -131,9 +196,9 @@ This is my first post written in org-mode. It's simple and powerful!
 </div>
 </div>
 
-<div id="outline-container-org03de7cc" class="outline-2">
-<h2 id="org03de7cc">Conclusion</h2>
-<div class="outline-text-2" id="text-org03de7cc">
+<div id="outline-container-org10170a4" class="outline-2">
+<h2 id="org10170a4">Conclusion</h2>
+<div class="outline-text-2" id="text-org10170a4">
 <p>
 Excited to blog this way!
 </p>

@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:53:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 02:03:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://example.com/posts/katex-render-debug/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;div id="outline-container-org5bc68cf" class="outline-2"&gt;
+&lt;h2 id="org5bc68cf"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5bc68cf"&gt;
+&lt;p&gt;
+Debugging KaTeX rendering for LaTeX equations.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org21e4aba" class="outline-2"&gt;
+&lt;h2 id="org21e4aba"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org21e4aba"&gt;
+&lt;p&gt;
+This should render: \( x^2 + y^2 = z^2 \).
+Also try: \(a + b = c\).
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org5e88e39" class="outline-2"&gt;
+&lt;h2 id="org5e88e39"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5e88e39"&gt;
+&lt;p&gt;
+Block equation:
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+&lt;/p&gt;
+
+&lt;p&gt;
+With align:
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgec02b45" class="outline-2"&gt;
+&lt;h2 id="orgec02b45"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgec02b45"&gt;
+&lt;p&gt;
+Price: \$5 (should not render as math).
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgc1dd0a5" class="outline-2"&gt;
+&lt;h2 id="orgc1dd0a5"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc1dd0a5"&gt;
+&lt;p&gt;
+KaTeX should render \(...\)$ and \[...\].
+Write your post here.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
 This is a test of math content \(X+y\), and display:
 &lt;/p&gt;
 

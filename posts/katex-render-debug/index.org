@@ -1,0 +1,38 @@
+#+BEGIN_COMMENT
+.. title: KaTeX Render Debug
+.. slug: katex-render-debug
+.. date: 2025-09-25 19:57:13 UTC-06:00
+.. tags: math, katex
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+* Introduction
+Debugging KaTeX rendering for LaTeX equations.
+
+* Inline Math
+This should render: \( x^2 + y^2 = z^2 \).
+Also try: $a + b = c$.
+
+* Display Math
+Block equation:
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+
+With align:
+#+BEGIN_EXPORT latex
+\begin{align}
+f(x) &= x^2 + 2x + 1 \\
+&= (x + 1)^2
+\end{align}
+#+END_EXPORT
+
+* Non-Math Test
+Price: \$5 (should not render as math).
+
+* Conclusion
+KaTeX should render \(...\)$ and \[...\].
+Write your post here.
