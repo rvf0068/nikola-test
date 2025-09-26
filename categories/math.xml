@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:47:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:53:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
 This is a test of math content \(X+y\), and display:
 &lt;/p&gt;
 
 &lt;p&gt;
 \[X^{2}+Y^{2}\]
+&lt;/p&gt;
+
+&lt;p&gt;
+This is old style math: \(a+b\), \[X+Y+\sqrt{a}\]
 &lt;/p&gt;
 
 &lt;p&gt;
