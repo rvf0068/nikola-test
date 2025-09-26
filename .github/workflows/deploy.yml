@@ -1,0 +1,45 @@
+name: Deploy Nikola to GitHub Project Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.8'
+
+    - name: Install uv
+      run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    - name: Install dependencies
+      run: |
+        uv venv .venv
+        source .venv/bin/activate
+        uv pip install "Nikola[extras]" markdown
+
+    - name: Install orgmode plugin
+      run: |
+        source .venv/bin/activate
+        nikola plugin -i orgmode
+
+    - name: Install Emacs for org-mode
+      run: sudo apt update && sudo apt install -y emacs
+
+    - name: Build site
+      run: |
+        source .venv/bin/activate
+        nikola build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
+        publish_branch: gh-pages
