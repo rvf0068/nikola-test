@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site</title><link>https://example.com/</link><description>This is a demo site for Nikola.</description><atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:15:02 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site</title><link>https://example.com/</link><description>This is a demo site for Nikola.</description><atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:26:57 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
 This is a test of math content \(X+y\), and display:
 &lt;/p&gt;
 
@@ -13,18 +13,18 @@ Links: &lt;a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863"&gt;S
 Write your post here.
 &lt;/p&gt;
 
-&lt;div id="outline-container-org0d76ff6" class="outline-2"&gt;
-&lt;h2 id="org0d76ff6"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org0d76ff6"&gt;
+&lt;div id="outline-container-org3930143" class="outline-2"&gt;
+&lt;h2 id="org3930143"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3930143"&gt;
 &lt;p&gt;
 This is my first post written in org-mode. It's simple and powerful!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgfebd912" class="outline-2"&gt;
-&lt;h2 id="orgfebd912"&gt;Why org-mode?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgfebd912"&gt;
+&lt;div id="outline-container-org99f133f" class="outline-2"&gt;
+&lt;h2 id="org99f133f"&gt;Why org-mode?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org99f133f"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Outlines and headings are easy.&lt;/li&gt;
 &lt;li&gt;Code blocks:&lt;/li&gt;
@@ -35,9 +35,9 @@ This is my first post written in org-mode. It's simple and powerful!
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org0aa55e4" class="outline-2"&gt;
-&lt;h2 id="org0aa55e4"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org0aa55e4"&gt;
+&lt;div id="outline-container-org2f9bbb9" class="outline-2"&gt;
+&lt;h2 id="org2f9bbb9"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2f9bbb9"&gt;
 &lt;p&gt;
 Excited to blog this way!
 &lt;/p&gt;
