@@ -1111,8 +1111,18 @@ USE_KATEX = True
 # KaTeX configuration (loads CSS and JS from CDN)
 KATEX_AUTO_RENDER = """<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjS3LohjO+2vHJtjNja9/5x53CMTx0j//lOmH5fAbQ8s3E2E63GyqDm" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0IungKVBL1khxm3fH6Qf" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>"""
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0IungKVBL1khxm3fH6Qf" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "\\[", right: "\\]", display: true},
+                {left: "\\(", right: "\\)", display: false}
+            ],
+            throwOnError: false
+        });
+    });
+</script>"""
 
 # Want to use KaTeX instead of MathJax? While KaTeX may not support every
 # feature yet, it's faster and the output looks better.
