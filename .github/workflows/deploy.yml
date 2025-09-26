@@ -1,5 +1,9 @@
 name: Deploy Nikola to GitHub Project Pages
 
+# Grant write permissions to GITHUB_TOKEN for pushing to gh-pages
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
