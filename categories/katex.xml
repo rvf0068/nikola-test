@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about katex)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/katex.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Fri, 26 Sep 2025 01:47:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+This is a test of math content \(X+y\), and display:
+&lt;/p&gt;
+
+&lt;p&gt;
+\[X^{2}+Y^{2}\]
+&lt;/p&gt;
+
+&lt;p&gt;
+Links: &lt;a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863"&gt;Setting Up Nikola Blog on GitHub Pages - Grok&lt;/a&gt;
+&lt;/p&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item></channel></rss>

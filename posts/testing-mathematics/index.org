@@ -2,7 +2,7 @@
 .. title: Testing Mathematics
 .. slug: testing-mathematics
 .. date: 2025-09-25 19:09:36 UTC-06:00
-.. tags: 
+.. tags: math, katex
 .. category: 
 .. link: 
 .. description: 
