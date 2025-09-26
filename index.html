@@ -12,6 +12,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://example.com/">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/katex-render-debug/" type="text/html">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -79,18 +80,18 @@
             </p>
                 </div>
             </header><div class="e-content entry-content">
-                    <div id="outline-container-orgde685e7" class="outline-2">
-<h2 id="orgde685e7">Introduction</h2>
-<div class="outline-text-2" id="text-orgde685e7">
+                    <div id="outline-container-orgf0abf99" class="outline-2">
+<h2 id="orgf0abf99">Introduction</h2>
+<div class="outline-text-2" id="text-orgf0abf99">
 <p>
 Debugging KaTeX rendering for LaTeX equations.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org6f0fd01" class="outline-2">
-<h2 id="org6f0fd01">Inline Math</h2>
-<div class="outline-text-2" id="text-org6f0fd01">
+<div id="outline-container-orgb23d420" class="outline-2">
+<h2 id="orgb23d420">Inline Math</h2>
+<div class="outline-text-2" id="text-orgb23d420">
 <p>
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -98,9 +99,9 @@ Also try: \(a + b = c\).
 </div>
 </div>
 
-<div id="outline-container-org5db3ce4" class="outline-2">
-<h2 id="org5db3ce4">Display Math</h2>
-<div class="outline-text-2" id="text-org5db3ce4">
+<div id="outline-container-org4ab7d11" class="outline-2">
+<h2 id="org4ab7d11">Display Math</h2>
+<div class="outline-text-2" id="text-org4ab7d11">
 <p>
 Block equation:
 \[
@@ -114,18 +115,18 @@ With align:
 </div>
 </div>
 
-<div id="outline-container-orga376dcc" class="outline-2">
-<h2 id="orga376dcc">Non-Math Test</h2>
-<div class="outline-text-2" id="text-orga376dcc">
+<div id="outline-container-orgb9c2af9" class="outline-2">
+<h2 id="orgb9c2af9">Non-Math Test</h2>
+<div class="outline-text-2" id="text-orgb9c2af9">
 <p>
 Price: \$5 (should not render as math).
 </p>
 </div>
 </div>
 
-<div id="outline-container-org030a8e2" class="outline-2">
-<h2 id="org030a8e2">Conclusion</h2>
-<div class="outline-text-2" id="text-org030a8e2">
+<div id="outline-container-org93443f7" class="outline-2">
+<h2 id="org93443f7">Conclusion</h2>
+<div class="outline-text-2" id="text-org93443f7">
 <p>
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
@@ -175,18 +176,18 @@ Links: <a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863">Setting
 Write your post here.
 </p>
 
-<div id="outline-container-orga721573" class="outline-2">
-<h2 id="orga721573">Introduction</h2>
-<div class="outline-text-2" id="text-orga721573">
+<div id="outline-container-orgaf215df" class="outline-2">
+<h2 id="orgaf215df">Introduction</h2>
+<div class="outline-text-2" id="text-orgaf215df">
 <p>
 This is my first post written in org-mode. It's simple and powerful!
 </p>
 </div>
 </div>
 
-<div id="outline-container-org95ff4ab" class="outline-2">
-<h2 id="org95ff4ab">Why org-mode?</h2>
-<div class="outline-text-2" id="text-org95ff4ab">
+<div id="outline-container-orgff52622" class="outline-2">
+<h2 id="orgff52622">Why org-mode?</h2>
+<div class="outline-text-2" id="text-orgff52622">
 <ul class="org-ul">
 <li>Outlines and headings are easy.</li>
 <li>Code blocks:</li>
@@ -196,9 +197,9 @@ This is my first post written in org-mode. It's simple and powerful!
 </div>
 </div>
 
-<div id="outline-container-orge743305" class="outline-2">
-<h2 id="orge743305">Conclusion</h2>
-<div class="outline-text-2" id="text-orge743305">
+<div id="outline-container-org7793560" class="outline-2">
+<h2 id="org7793560">Conclusion</h2>
+<div class="outline-text-2" id="text-org7793560">
 <p>
 Excited to blog this way!
 </p>
@@ -227,6 +228,26 @@ Excited to blog this way!
 
 
     
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjS3LohjO+2vHJtjNja9/5x53CMTx0j//lOmH5fAbQ8s3E2E63GyqDm" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0IungKVBL1khxm3fH6Qf" crossorigin="anonymous"></script><script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "\[", right: "\]", display: true},
+                {left: "\(", right: "\)", display: false}
+            ],
+            throwOnError: false
+        });
+    });
+</script>
+                    }
+                );
+            
+
 
 
         <!--End of body content-->

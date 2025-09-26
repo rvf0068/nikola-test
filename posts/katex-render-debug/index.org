@@ -2,6 +2,7 @@
 .. title: KaTeX Render Debug
 .. slug: katex-render-debug
 .. date: 2025-09-25 19:57:13 UTC-06:00
+.. has_math: true
 .. tags: math, katex
 .. category: 
 .. link: 
