@@ -1,0 +1,22 @@
+#+BEGIN_COMMENT
+.. title: Testing Mathematics
+.. slug: testing-mathematics
+.. date: 2025-09-25 19:09:36 UTC-06:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
+This is a test of math content \(X+y\), and display:
+
+\[X^{2}+Y^{2}\]
+
+Links: [[https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863][Setting Up Nikola Blog on GitHub Pages - Grok]]
+
+
+
+
