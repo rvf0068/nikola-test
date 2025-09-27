@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site</title><link>https://rvf0068.github.io/nikola-test/</link><description>This is a demo site for Nikola.</description><atom:link href="https://rvf0068.github.io/nikola-test/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:30:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-orgc5b5423" class="outline-2"&gt;
-&lt;h2 id="orgc5b5423"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc5b5423"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site</title><link>https://rvf0068.github.io/nikola-test/</link><description>This is a demo site for Nikola.</description><atom:link href="https://rvf0068.github.io/nikola-test/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:45:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-org7e92dac" class="outline-2"&gt;
+&lt;h2 id="org7e92dac"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org7e92dac"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgb8d493a" class="outline-2"&gt;
-&lt;h2 id="orgb8d493a"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgb8d493a"&gt;
+&lt;div id="outline-container-orgca1fccb" class="outline-2"&gt;
+&lt;h2 id="orgca1fccb"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgca1fccb"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -18,9 +18,9 @@ Also try: \(a + b = c\).
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org16a4b91" class="outline-2"&gt;
-&lt;h2 id="org16a4b91"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org16a4b91"&gt;
+&lt;div id="outline-container-orgecc7671" class="outline-2"&gt;
+&lt;h2 id="orgecc7671"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgecc7671"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -34,18 +34,18 @@ With align:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org99385d2" class="outline-2"&gt;
-&lt;h2 id="org99385d2"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org99385d2"&gt;
+&lt;div id="outline-container-org02027db" class="outline-2"&gt;
+&lt;h2 id="org02027db"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org02027db"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org1c37fca" class="outline-2"&gt;
-&lt;h2 id="org1c37fca"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org1c37fca"&gt;
+&lt;div id="outline-container-orgb9c98db" class="outline-2"&gt;
+&lt;h2 id="orgb9c98db"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgb9c98db"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
@@ -86,25 +86,31 @@ This is an image:
 &lt;/p&gt;
 
 
-&lt;div id="orgd9eab4e" class="figure"&gt;
+&lt;div id="org35aceaf" class="figure"&gt;
 &lt;p&gt;&lt;img src="https://rvf0068.github.io/nikola-test/posts/testing-mathematics/images/ciclos6-0.png" alt="nil"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item><item><title>Testing</title><link>https://rvf0068.github.io/nikola-test/posts/testing/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+A test so that attributes work:
+&lt;/p&gt;
+
+&lt;img src="https://rvf0068.github.io/nikola-test/images/ciclos6-0.png" width="3cm" alt="a graph"&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item><item><title>Testing</title><link>https://rvf0068.github.io/nikola-test/posts/testing/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;
 Write your post here.
 &lt;/p&gt;
 
-&lt;div id="outline-container-orgcb2da10" class="outline-2"&gt;
-&lt;h2 id="orgcb2da10"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgcb2da10"&gt;
+&lt;div id="outline-container-org507d669" class="outline-2"&gt;
+&lt;h2 id="org507d669"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org507d669"&gt;
 &lt;p&gt;
 This is my first post written in org-mode. It's simple and powerful!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org6d63507" class="outline-2"&gt;
-&lt;h2 id="org6d63507"&gt;Why org-mode?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org6d63507"&gt;
+&lt;div id="outline-container-orgfd899f7" class="outline-2"&gt;
+&lt;h2 id="orgfd899f7"&gt;Why org-mode?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgfd899f7"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Outlines and headings are easy.&lt;/li&gt;
 &lt;li&gt;Code blocks:&lt;/li&gt;
@@ -115,9 +121,9 @@ This is my first post written in org-mode. It's simple and powerful!
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgc2bece3" class="outline-2"&gt;
-&lt;h2 id="orgc2bece3"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc2bece3"&gt;
+&lt;div id="outline-container-org583f2dc" class="outline-2"&gt;
+&lt;h2 id="org583f2dc"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org583f2dc"&gt;
 &lt;p&gt;
 Excited to blog this way!
 &lt;/p&gt;

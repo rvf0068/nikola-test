@@ -56,9 +56,12 @@ nx.draw(g)
 
 This is an image:
 
+#+ATTR_HTML: :width 3cm :alt a graph
 [[file:../images/ciclos6-0.png]]
 
+A test so that attributes work:
 
+#+HTML: <img src="/images/ciclos6-0.png" width="3cm" alt="a graph">
 
 # Local Variables:
 # org-confirm-babel-evaluate: nil
