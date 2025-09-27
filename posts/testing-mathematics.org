@@ -10,6 +10,12 @@
 
 #+END_COMMENT
 
+#+property: header-args:latex :imagemagick t :iminoptions -density 300 -resize 400
+#+property: header-args:latex+ :packages '(("" "tikz") ("" "tkz-berge") ("" "tkz-berge-add")) :border 1pt
+#+property: header-args:latex+ :results raw file :cache yes
+
+#+latex_header: \usepackage{tikz}
+#+latex_header: \usepackage{tkz-berge}
 
 This is a test of math content \(X+y\), and display:
 
@@ -19,6 +25,21 @@ This is old style math: $a+b$, $$X+Y+\sqrt{a}$$
 
 Links: [[https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863][Setting Up Nikola Blog on GitHub Pages - Grok]]
 
+Let us test a generated image:
+
+#+name: petersentest
+#+header: :file (by-backend (latex "petersentest.tikz") (beamer "petersentest.tikz") (t "petersentest.png"))
+#+begin_src latex
+\begin{tikzpicture}
+  \grPetersen[RA=2,RB=1]
+\end{tikzpicture}
+#+end_src
+   
+#+attr_html: :width 400 :alt petersentest :align center
+#+attr_latex: :float t :width ""
+#+caption: Petersen label:petersentest
+#+RESULTS[042da20826d4a7fbfd5fb021070a7909d2b4cf17]: petersentest
+[[file:petersentest.png]]
 
 
 
