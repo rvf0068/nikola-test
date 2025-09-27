@@ -55,8 +55,8 @@ nx.draw(g)
 [[file:ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
 
 This is an image:
-
-[[file:images/ciclos6-0.png]]
+#+attr_html: :width 40%
+[[file:../images/ciclos6-0.png]]
 
 
 
