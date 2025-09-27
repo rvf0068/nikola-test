@@ -71,6 +71,20 @@ This is old style math: \(a+b\), \[X+Y+\sqrt{a}\]
 <p>
 Links: <a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863">Setting Up Nikola Blog on GitHub Pages - Grok</a>
 </p>
+
+<p>
+Let us test a generated image:
+</p>
+
+<div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
+  <span class="k">\grPetersen</span><span class="na">[RA=2,RB=1]</span>
+<span class="k">\end</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
+</pre></div>
+
+<div class="highlight"><pre><span></span>import networkx as nx
+g=nx.petersen_graph()
+nx.draw(g)
+</pre></div>
     </div>
     <aside class="postpromonav"><nav><p itemprop="keywords" class="tags">
             <span class="tag"><a class="p-category" href="../../categories/katex/" rel="tag">katex</a></span>
