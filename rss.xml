@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site</title><link>https://example.com/</link><description>This is a demo site for Nikola.</description><atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:13:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://example.com/posts/katex-render-debug/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;div id="outline-container-orgb1bd6d7" class="outline-2"&gt;
-&lt;h2 id="orgb1bd6d7"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgb1bd6d7"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site</title><link>https://rvf0068.github.io/nikola-test/</link><description>This is a demo site for Nikola.</description><atom:link href="https://rvf0068.github.io/nikola-test/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:30:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-orgc5b5423" class="outline-2"&gt;
+&lt;h2 id="orgc5b5423"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc5b5423"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgbedfad7" class="outline-2"&gt;
-&lt;h2 id="orgbedfad7"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgbedfad7"&gt;
+&lt;div id="outline-container-orgb8d493a" class="outline-2"&gt;
+&lt;h2 id="orgb8d493a"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgb8d493a"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -18,9 +18,9 @@ Also try: \(a + b = c\).
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org9982f74" class="outline-2"&gt;
-&lt;h2 id="org9982f74"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9982f74"&gt;
+&lt;div id="outline-container-org16a4b91" class="outline-2"&gt;
+&lt;h2 id="org16a4b91"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org16a4b91"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -34,24 +34,24 @@ With align:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgfd6dd86" class="outline-2"&gt;
-&lt;h2 id="orgfd6dd86"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgfd6dd86"&gt;
+&lt;div id="outline-container-org99385d2" class="outline-2"&gt;
+&lt;h2 id="org99385d2"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org99385d2"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgdf5faa9" class="outline-2"&gt;
-&lt;h2 id="orgdf5faa9"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgdf5faa9"&gt;
+&lt;div id="outline-container-org1c37fca" class="outline-2"&gt;
+&lt;h2 id="org1c37fca"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org1c37fca"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item><item><title>Testing Mathematics</title><link>https://rvf0068.github.io/nikola-test/posts/testing-mathematics/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;
 This is a test of math content \(X+y\), and display:
 &lt;/p&gt;
 
@@ -86,25 +86,25 @@ This is an image:
 &lt;/p&gt;
 
 
-&lt;div id="orge78a009" class="figure"&gt;
-&lt;p&gt;&lt;img src="https://example.com/posts/testing-mathematics/images/ciclos6-0.png" alt="nil"&gt;
+&lt;div id="orgd9eab4e" class="figure"&gt;
+&lt;p&gt;&lt;img src="https://rvf0068.github.io/nikola-test/posts/testing-mathematics/images/ciclos6-0.png" alt="nil"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><guid>https://example.com/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item><item><title>Testing</title><link>https://example.com/posts/testing/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
+&lt;/div&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item><item><title>Testing</title><link>https://rvf0068.github.io/nikola-test/posts/testing/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;
 Write your post here.
 &lt;/p&gt;
 
-&lt;div id="outline-container-orgd863877" class="outline-2"&gt;
-&lt;h2 id="orgd863877"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgd863877"&gt;
+&lt;div id="outline-container-orgcb2da10" class="outline-2"&gt;
+&lt;h2 id="orgcb2da10"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgcb2da10"&gt;
 &lt;p&gt;
 This is my first post written in org-mode. It's simple and powerful!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org367c756" class="outline-2"&gt;
-&lt;h2 id="org367c756"&gt;Why org-mode?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org367c756"&gt;
+&lt;div id="outline-container-org6d63507" class="outline-2"&gt;
+&lt;h2 id="org6d63507"&gt;Why org-mode?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org6d63507"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Outlines and headings are easy.&lt;/li&gt;
 &lt;li&gt;Code blocks:&lt;/li&gt;
@@ -115,11 +115,11 @@ This is my first post written in org-mode. It's simple and powerful!
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orge3cc4cc" class="outline-2"&gt;
-&lt;h2 id="orge3cc4cc"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orge3cc4cc"&gt;
+&lt;div id="outline-container-orgc2bece3" class="outline-2"&gt;
+&lt;h2 id="orgc2bece3"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc2bece3"&gt;
 &lt;p&gt;
 Excited to blog this way!
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://example.com/posts/testing/</guid><pubDate>Fri, 26 Sep 2025 00:33:50 GMT</pubDate></item><item><title>Test Post</title><link>https://example.com/posts/test/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;This is a test.&lt;/p&gt;</description><category>test</category><guid>https://example.com/posts/test/</guid><pubDate>Thu, 25 Sep 2025 16:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/testing/</guid><pubDate>Fri, 26 Sep 2025 00:33:50 GMT</pubDate></item><item><title>Test Post</title><link>https://rvf0068.github.io/nikola-test/posts/test/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;This is a test.&lt;/p&gt;</description><category>test</category><guid>https://rvf0068.github.io/nikola-test/posts/test/</guid><pubDate>Thu, 25 Sep 2025 16:00:00 GMT</pubDate></item></channel></rss>

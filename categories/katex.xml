@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about katex)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/katex.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:13:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://example.com/posts/katex-render-debug/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;div id="outline-container-orgb1bd6d7" class="outline-2"&gt;
-&lt;h2 id="orgb1bd6d7"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgb1bd6d7"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site (Posts about katex)</title><link>https://rvf0068.github.io/nikola-test/</link><description></description><atom:link href="https://rvf0068.github.io/nikola-test/categories/katex.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 19:30:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-orgc5b5423" class="outline-2"&gt;
+&lt;h2 id="orgc5b5423"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc5b5423"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgbedfad7" class="outline-2"&gt;
-&lt;h2 id="orgbedfad7"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgbedfad7"&gt;
+&lt;div id="outline-container-orgb8d493a" class="outline-2"&gt;
+&lt;h2 id="orgb8d493a"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgb8d493a"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -18,9 +18,9 @@ Also try: \(a + b = c\).
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org9982f74" class="outline-2"&gt;
-&lt;h2 id="org9982f74"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9982f74"&gt;
+&lt;div id="outline-container-org16a4b91" class="outline-2"&gt;
+&lt;h2 id="org16a4b91"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org16a4b91"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -34,21 +34,21 @@ With align:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgfd6dd86" class="outline-2"&gt;
-&lt;h2 id="orgfd6dd86"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgfd6dd86"&gt;
+&lt;div id="outline-container-org99385d2" class="outline-2"&gt;
+&lt;h2 id="org99385d2"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org99385d2"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgdf5faa9" class="outline-2"&gt;
-&lt;h2 id="orgdf5faa9"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgdf5faa9"&gt;
+&lt;div id="outline-container-org1c37fca" class="outline-2"&gt;
+&lt;h2 id="org1c37fca"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org1c37fca"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item></channel></rss>
