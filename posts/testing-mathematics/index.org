@@ -56,7 +56,7 @@ nx.draw(g)
 
 This is an image:
 
-[[img-url:/images/ciclos6-0.png]]
+[[file:images/ciclos6-0.png]]
 
 
 
