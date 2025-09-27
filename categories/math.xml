@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 01:14:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://example.com/posts/katex-render-debug/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;div id="outline-container-orgf16ed07" class="outline-2"&gt;
-&lt;h2 id="orgf16ed07"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgf16ed07"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Nikola Site (Posts about math)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/math.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Nikola Tesla&lt;/a&gt; </copyright><lastBuildDate>Sat, 27 Sep 2025 18:34:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://example.com/posts/katex-render-debug/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;div id="outline-container-org54d4ac7" class="outline-2"&gt;
+&lt;h2 id="org54d4ac7"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org54d4ac7"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org7694027" class="outline-2"&gt;
-&lt;h2 id="org7694027"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org7694027"&gt;
+&lt;div id="outline-container-org3a69479" class="outline-2"&gt;
+&lt;h2 id="org3a69479"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3a69479"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -18,9 +18,9 @@ Also try: \(a + b = c\).
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgc641658" class="outline-2"&gt;
-&lt;h2 id="orgc641658"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc641658"&gt;
+&lt;div id="outline-container-org9306aca" class="outline-2"&gt;
+&lt;h2 id="org9306aca"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org9306aca"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -34,49 +34,21 @@ With align:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgb3d9576" class="outline-2"&gt;
-&lt;h2 id="orgb3d9576"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgb3d9576"&gt;
+&lt;div id="outline-container-org5f2a381" class="outline-2"&gt;
+&lt;h2 id="org5f2a381"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5f2a381"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgde9979c" class="outline-2"&gt;
-&lt;h2 id="orgde9979c"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgde9979c"&gt;
+&lt;div id="outline-container-org8baa0ba" class="outline-2"&gt;
+&lt;h2 id="org8baa0ba"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org8baa0ba"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item><item><title>Testing Mathematics</title><link>https://example.com/posts/testing-mathematics/</link><dc:creator>Nikola Tesla</dc:creator><description>&lt;p&gt;
-This is a test of math content \(X+y\), and display:
-&lt;/p&gt;
-
-&lt;p&gt;
-\[X^{2}+Y^{2}\]
-&lt;/p&gt;
-
-&lt;p&gt;
-This is old style math: \(a+b\), \[X+Y+\sqrt{a}\]
-&lt;/p&gt;
-
-&lt;p&gt;
-Links: &lt;a href="https://grok.com/c/52be0224-d1a0-42ae-9802-e8aca8457863"&gt;Setting Up Nikola Blog on GitHub Pages - Grok&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-Let us test a generated image:
-&lt;/p&gt;
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;tikzpicture&lt;span class="nb"&gt;}&lt;/span&gt;
-  &lt;span class="k"&gt;\grPetersen&lt;/span&gt;&lt;span class="na"&gt;[RA=2,RB=1]&lt;/span&gt;
-&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;tikzpicture&lt;span class="nb"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;import networkx as nx
-g=nx.petersen_graph()
-nx.draw(g)
-&lt;/pre&gt;&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>katex</category><category>math</category><guid>https://example.com/posts/katex-render-debug/</guid><pubDate>Fri, 26 Sep 2025 01:57:13 GMT</pubDate></item></channel></rss>

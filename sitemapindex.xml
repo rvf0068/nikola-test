@@ -7,22 +7,22 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://example.com/categories/katex.xml</loc>
-  <lastmod>2025-09-27T01:14:00Z</lastmod>
+  <lastmod>2025-09-27T18:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/math.xml</loc>
-  <lastmod>2025-09-27T01:14:00Z</lastmod>
+  <lastmod>2025-09-27T18:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/test.xml</loc>
-  <lastmod>2025-09-27T01:14:00Z</lastmod>
+  <lastmod>2025-09-27T18:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/rss.xml</loc>
-  <lastmod>2025-09-27T01:14:00Z</lastmod>
+  <lastmod>2025-09-27T18:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2025-09-27T01:14:00Z</lastmod>
+  <lastmod>2025-09-27T18:34:00Z</lastmod>
  </sitemap>
 </sitemapindex>

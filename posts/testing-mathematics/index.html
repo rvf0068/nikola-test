@@ -13,6 +13,7 @@
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Nikola Tesla">
 <link rel="prev" href="../testing/" title="Testing" type="text/html">
 <link rel="next" href="../katex-render-debug/" title="KaTeX Render Debug" type="text/html">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body class="">
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -85,13 +86,17 @@ Let us test a generated image:
 g=nx.petersen_graph()
 nx.draw(g)
 </pre></div>
-    </div>
-    <aside class="postpromonav"><nav><p itemprop="keywords" class="tags">
-            <span class="tag"><a class="p-category" href="../../categories/katex/" rel="tag">katex</a></span>
-            <span class="tag"><a class="p-category" href="../../categories/math/" rel="tag">math</a></span>
-      </p>
 
-            <div class="pager hidden-print pagination">
+<p>
+This is an image:
+</p>
+
+
+<div id="org2f39877" class="figure">
+<p><img src="images/ciclos6-0.png" alt="nil"></p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><div class="pager hidden-print pagination">
 
             <span class="previous pagination-item older">
                 <a href="../testing/" rel="prev" title="Testing">
@@ -108,7 +113,18 @@ Next post
 
         </div>
 
-    </nav></aside></article>
+    </nav></aside><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        delimiters: [
+                            {left: "$$", right: "$$", display: true},
+                            {left: "\\[", right: "\\]", display: true},
+                            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+                            {left: "\\(", right: "\\)", display: false}
+                        ]
+                    }
+                );
+            </script></article>
 </div>
             <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {

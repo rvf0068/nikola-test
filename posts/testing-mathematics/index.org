@@ -2,7 +2,7 @@
 .. title: Testing Mathematics
 .. slug: testing-mathematics
 .. date: 2025-09-25 19:09:36 UTC-06:00
-.. tags: math, katex
+.. has_math: true
 .. category: 
 .. link: 
 .. description: 
@@ -52,7 +52,13 @@ nx.draw(g)
 #+end_src
 
 #+RESULTS:
-[[./.ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
+[[file:ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
+
+This is an image:
+
+[[file:../images/ciclos6-0.png]]
+
+
 
 # Local Variables:
 # org-confirm-babel-evaluate: nil
