@@ -10,6 +10,8 @@
 
 #+END_COMMENT
 
+#+property: header-args:jupyter-python :session dibujospost :results scalar
+
 #+property: header-args:latex :imagemagick t :iminoptions -density 300 -resize 400
 #+property: header-args:latex+ :packages '(("" "tikz") ("" "tkz-berge") ("" "tkz-berge-add")) :border 1pt
 #+property: header-args:latex+ :results raw file :cache yes
@@ -43,3 +45,15 @@ Let us test a generated image:
 
 
 
+#+begin_src jupyter-python
+import networkx as nx
+g=nx.petersen_graph()
+nx.draw(g)
+#+end_src
+
+#+RESULTS:
+[[./.ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
+
+# Local Variables:
+# org-confirm-babel-evaluate: nil
+# End:
