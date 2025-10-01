@@ -39,7 +39,7 @@ jobs:
         nikola theme -i hyde
 
     - name: Set up Emacs
-      uses: purcell/setup-emacs@v3
+      uses: purcell/setup-emacs@master
       with:
         version: 29.1  
 
