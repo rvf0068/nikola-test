@@ -41,7 +41,7 @@ jobs:
     - name: Set up Emacs
       uses: purcell/setup-emacs@master
       with:
-        version: 29.1  
+        version: 30.1
 
     - name: Build site
       run: |
