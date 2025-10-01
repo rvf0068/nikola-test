@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site (Posts about katex)</title><link>https://rvf0068.github.io/nikola-test/</link><description></description><atom:link href="https://rvf0068.github.io/nikola-test/categories/katex.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Wed, 01 Oct 2025 01:47:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-org73b4c3c" class="outline-2"&gt;
-&lt;h2 id="org73b4c3c"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org73b4c3c"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site (Posts about katex)</title><link>https://rvf0068.github.io/nikola-test/</link><description></description><atom:link href="https://rvf0068.github.io/nikola-test/categories/katex.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Wed, 01 Oct 2025 01:54:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-org5e615ee" class="outline-2"&gt;
+&lt;h2 id="org5e615ee"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5e615ee"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org525b42d" class="outline-2"&gt;
-&lt;h2 id="org525b42d"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org525b42d"&gt;
+&lt;div id="outline-container-orga60634e" class="outline-2"&gt;
+&lt;h2 id="orga60634e"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orga60634e"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
@@ -18,9 +18,9 @@ Also try: \(a + b = c\).
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgfaf43c8" class="outline-2"&gt;
-&lt;h2 id="orgfaf43c8"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgfaf43c8"&gt;
+&lt;div id="outline-container-orgc0122ef" class="outline-2"&gt;
+&lt;h2 id="orgc0122ef"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc0122ef"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -34,18 +34,18 @@ With align:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgebb1382" class="outline-2"&gt;
-&lt;h2 id="orgebb1382"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgebb1382"&gt;
+&lt;div id="outline-container-orgaa8d5aa" class="outline-2"&gt;
+&lt;h2 id="orgaa8d5aa"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgaa8d5aa"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org3a7a505" class="outline-2"&gt;
-&lt;h2 id="org3a7a505"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org3a7a505"&gt;
+&lt;div id="outline-container-orgf744c2b" class="outline-2"&gt;
+&lt;h2 id="orgf744c2b"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgf744c2b"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
