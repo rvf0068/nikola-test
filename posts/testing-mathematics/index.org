@@ -58,6 +58,9 @@ This is an image:
 
 [[file:../images/ciclos6-0.png]]
 
+This is also an image:
+
+[[img-url:/images/ciclos6-0.png]]
 
 # Local Variables:
 # org-confirm-babel-evaluate: nil
