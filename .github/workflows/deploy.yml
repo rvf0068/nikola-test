@@ -38,8 +38,10 @@ jobs:
         source .venv/bin/activate
         nikola theme -i hyde
 
-    - name: Install Emacs for org-mode
-      run: sudo apt update && sudo apt install -y emacs
+    - name: Set up Emacs
+      uses: purcell/setup-emacs@v3
+      with:
+        version: 29.1  
 
     - name: Build site
       run: |
