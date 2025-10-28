@@ -124,7 +124,15 @@ contextual information."
 (defun org-file-link-img-url-export (path desc format)
   (cond
    ((eq format 'html)
-    (format "<img src=\"/%s\" alt=\"%s\"/>" path desc))))
+    ;; Convert paths intelligently:
+    ;; - Paths starting with / are kept as absolute
+    ;; - Paths starting with "images/" become "/images/" (absolute from site root)
+    ;; - All other paths are kept unchanged (typically relative post-local paths)
+    (let ((src (cond
+                ((string-prefix-p "/" path) path)
+                ((string-prefix-p "images/" path) (concat "/" path))
+                (t path))))
+      (format "<img src=\"%s\" alt=\"%s\"/>" src (or desc ""))))))
 (org-add-link-type "file" nil 'org-file-link-img-url-export)
 
 ;; Support for magic links (link:// scheme)

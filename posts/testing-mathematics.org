@@ -41,7 +41,7 @@ Let us test a generated image:
 #+attr_latex: :float t :width ""
 #+caption: Petersen label:petersentest
 #+RESULTS[042da20826d4a7fbfd5fb021070a7909d2b4cf17]: petersentest
-[[file:petersentest.png]]
+[[img-url:/images/petersentest.png]]
 
 
 
@@ -52,11 +52,11 @@ nx.draw(g)
 #+end_src
 
 #+RESULTS:
-[[file:ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
+[[img-url:/images/.ob-jupyter/883b9ab685c72e0c5312bcafa33a5e4300a99f8a.png]]
 
 This is an image:
 
-[[file:../images/ciclos6-0.png]]
+[[img-url:/images/ciclos6-0.png]]
 
 This is also an image:
 
