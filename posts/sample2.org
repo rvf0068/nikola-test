@@ -260,11 +260,6 @@ This configuration uses =org-roam= for networked note-taking. Create links to ot
 - Use =<f8> i= to insert a link to a roam note
 - Use =<f5> d= to search within all roam notes using =consult-ripgrep=
 
-Example roam links (these are hypothetical):
-- See my note on [[roam:Category Theory]] for functors and natural transformations
-- The [[roam:Galois Theory]] note discusses field extensions
-- My [[roam:Differential Geometry]] notes cover manifolds and tangent spaces
-
 ** Org-Roam Search
 
 Use =<f5> d= (=bms/org-roam-rg-search=) to search across all notes in =my-notes-directory=.
