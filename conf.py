@@ -294,6 +294,9 @@ TIMEZONE = "America/Mexico_City"
 # For example, to use British instead of US English: LOCALES = {'en': 'en_GB'}
 # LOCALES = {}
 
+# Copy files (including images) from posts directory to output
+FILES_FOLDERS = {'posts': 'posts'}
+
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
 # Default is:

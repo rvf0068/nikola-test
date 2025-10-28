@@ -124,7 +124,11 @@ contextual information."
 (defun org-file-link-img-url-export (path desc format)
   (cond
    ((eq format 'html)
-    (format "<img src=\"/%s\" alt=\"%s\"/>" path desc))))
+    ;; Keep relative paths relative, only add / for absolute paths
+    (let ((src (if (string-prefix-p "/" path)
+                   path
+                 path)))
+      (format "<img src=\"%s\" alt=\"%s\"/>" src (or desc ""))))))
 (org-add-link-type "file" nil 'org-file-link-img-url-export)
 
 ;; Support for magic links (link:// scheme)
