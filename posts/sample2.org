@@ -1,3 +1,14 @@
+#+BEGIN_COMMENT
+.. title: Mathematics Demo
+.. slug: mathematics-demo
+.. date: 2025-10-28 
+.. has_math: true
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
 #+title: Comprehensive Demo: Math Emacs Configuration
 #+AUTHOR: Demo Author
 #+date: <2025-10-26 Sun>
