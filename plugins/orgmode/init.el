@@ -127,7 +127,7 @@ contextual information."
     ;; Convert paths intelligently:
     ;; - Paths starting with / are kept as absolute
     ;; - Paths starting with "images/" become "/images/" (absolute from site root)
-    ;; - Other paths remain relative
+    ;; - All other paths are kept unchanged (typically relative post-local paths)
     (let ((src (cond
                 ((string-prefix-p "/" path) path)
                 ((string-prefix-p "images/" path) (concat "/" path))
