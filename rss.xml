@@ -1,24 +1,1209 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site</title><link>https://rvf0068.github.io/nikola-test/</link><description>This is a demo site for Nikola.</description><atom:link href="https://rvf0068.github.io/nikola-test/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Tue, 28 Oct 2025 05:18:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-orgc5300a8" class="outline-2"&gt;
-&lt;h2 id="orgc5300a8"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc5300a8"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Site</title><link>https://rvf0068.github.io/nikola-test/</link><description>This is a demo site for Nikola.</description><atom:link href="https://rvf0068.github.io/nikola-test/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:n.tesla@example.com"&gt;Rafael&lt;/a&gt; </copyright><lastBuildDate>Tue, 28 Oct 2025 16:05:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Mathematics Demo</title><link>https://rvf0068.github.io/nikola-test/posts/mathematics-demo/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="table-of-contents" role="doc-toc"&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id="text-table-of-contents" role="doc-toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orga63203f"&gt;Introduction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org493d30f"&gt;Configuration Highlights&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org4725978"&gt;Basic Mathematics with CDLaTeX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org809b2a5"&gt;Using CDLaTeX Symbols&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org1d7661e"&gt;Inline Math with Math-Delimiters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6ea7049"&gt;Theorem Environments with Yasnippet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb1ffbf8"&gt;Example: Group Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgff879e6"&gt;Cross-Referencing with &lt;code&gt;C-c r&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orge7155b1"&gt;Advanced Mathematics&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6430644"&gt;Ring Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org1222d6c"&gt;Complex Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgf5f1786"&gt;Graph Theory Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org0bbba30"&gt;Equations and Alignment&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb38c63a"&gt;Single Equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgf3148c7"&gt;Aligned Equations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgc91696d"&gt;System of Equations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org2456335"&gt;Integration with Org-Roam&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org65bd294"&gt;Org-Roam Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org5410802"&gt;Bibliography and Citations&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org548a2dc"&gt;Citation Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org09eaee2"&gt;Example Citations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgdc6d141"&gt;Python and Jupyter Integration&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgd748dbc"&gt;Basic Python Source Block&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org171376a"&gt;Jupyter Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org60dc8d4"&gt;Data Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org26cc720"&gt;Tables and Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgfb7a650"&gt;Calculations in Tables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orga3964df"&gt;Export Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6568ef7"&gt;LaTeX/PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6e3d0bf"&gt;Jupyter Notebook Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org9866a62"&gt;Advanced Features Showcase&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org4a13cd3"&gt;Embark Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orga73e2ff"&gt;Consult Commands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orge25b299"&gt;Smartparens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgfdd38b4"&gt;Org-Fragtog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org540d169"&gt;GTD and Task Management&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orga9e598e"&gt;Capture Templates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org7a98368"&gt;Example Tasks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6c73d6a"&gt;Org Agenda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org3f6d9b9"&gt;AI Integration with GPTel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org9aec84b"&gt;Example AI Queries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org8993882"&gt;Magit Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org555480b"&gt;PDF Tools and Org-Noter&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6c88784"&gt;Reading PDFs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org0b6f1c4"&gt;Org-Noter Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org6de951b"&gt;Useful Keybinding Reference&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgdcf3d0a"&gt;Global Bindings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgf80a28d"&gt;Org-Mode Specific&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgdd3153d"&gt;Bibliography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org9088719"&gt;Conclusion&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orge837aa0"&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org2af11cc"&gt;Testing This Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orga63203f" class="outline-2"&gt;
+&lt;h2 id="orga63203f"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orga63203f"&gt;
+&lt;p&gt;
+This document demonstrates the full capabilities of the math-emacs configuration, showcasing:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Custom yasnippet templates for theorem environments (&lt;code&gt;&amp;lt;f6&amp;gt; t&lt;/code&gt;, &lt;code&gt;&amp;lt;f6&amp;gt; d&lt;/code&gt;, etc.)&lt;/li&gt;
+&lt;li&gt;Smart cross-referencing with &lt;code&gt;C-c r&lt;/code&gt; using &lt;code&gt;cross-refs.el&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CDLaTeX quick math insertion (&lt;code&gt;`o&lt;/code&gt; → \(\omega\), &lt;code&gt;`O&lt;/code&gt; → \(\Omega\), etc.)&lt;/li&gt;
+&lt;li&gt;Math delimiters with &lt;code&gt;$&lt;/code&gt; key binding&lt;/li&gt;
+&lt;li&gt;Integration with &lt;code&gt;org-roam&lt;/code&gt; for linked notes&lt;/li&gt;
+&lt;li&gt;Bibliography management with &lt;code&gt;citar&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jupyter notebook integration&lt;/li&gt;
+&lt;li&gt;LaTeX fragment previews with &lt;code&gt;org-fragtog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Export to LaTeX/PDF and Jupyter notebooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org493d30f" class="outline-3"&gt;
+&lt;h3 id="org493d30f"&gt;Configuration Highlights&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org493d30f"&gt;
+&lt;p&gt;
+This setup uses:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;code&gt;straight.el&lt;/code&gt; for package management&lt;/li&gt;
+&lt;li&gt;Literate configuration in &lt;code&gt;emacs-config.org&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Modern completion with Vertico + Orderless + Consult + Embark&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gptel&lt;/code&gt; for AI assistance&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;magit&lt;/code&gt; for version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org4725978" class="outline-2"&gt;
+&lt;h2 id="org4725978"&gt;Basic Mathematics with CDLaTeX&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org4725978"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org809b2a5" class="outline-3"&gt;
+&lt;h3 id="org809b2a5"&gt;Using CDLaTeX Symbols&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org809b2a5"&gt;
+&lt;p&gt;
+CDLaTeX makes math input fast. Examples of customized bindings:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Type &lt;code&gt;`m&lt;/code&gt; to get \(\mu\), then &lt;code&gt;`m&lt;/code&gt; again for \(\mapsto\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`o&lt;/code&gt; for \(\omega\), &lt;code&gt;`O&lt;/code&gt; for \(\Omega\) or \(\mathrm{Orb}\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`S&lt;/code&gt; for \(\Sigma\) or \(\mathrm{Stab}\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`p&lt;/code&gt; for \(\pi\), \(\varpi\), or \(\perp\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`-&lt;/code&gt; for \(\cap\), \(\leftrightarrow\), or \(\longleftrightarrow\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`*&lt;/code&gt; for \(\times\) or \(\otimes\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`[&lt;/code&gt; for \(\subseteq\)&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;`&amp;lt;&lt;/code&gt; for \(\leq\), \(\langle\), or \(\trianglelefteq\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org1d7661e" class="outline-3"&gt;
+&lt;h3 id="org1d7661e"&gt;Inline Math with Math-Delimiters&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1d7661e"&gt;
+&lt;p&gt;
+Press &lt;code&gt;$&lt;/code&gt; to insert math delimiters: \(E = mc^2\) inline, or press it twice for display math:
+&lt;/p&gt;
+
+&lt;p&gt;
+\[\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}\]
+&lt;/p&gt;
+
+&lt;p&gt;
+The &lt;code&gt;$&lt;/code&gt; binding works intelligently in both org-mode and LaTeX-mode. 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6ea7049" class="outline-2"&gt;
+&lt;h2 id="org6ea7049"&gt;Theorem Environments with Yasnippet&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org6ea7049"&gt;
+&lt;p&gt;
+This configuration provides custom snippets bound to &lt;code&gt;&amp;lt;f6&amp;gt;&lt;/code&gt; keys:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; t&lt;/code&gt; → Theorem&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; d&lt;/code&gt; → Definition&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; l&lt;/code&gt; → Lemma&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; c&lt;/code&gt; → Corollary&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; p&lt;/code&gt; → Proposition&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; f&lt;/code&gt; → Proof&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f6&amp;gt; e&lt;/code&gt; → Equation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Each snippet automatically:
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Prompts for a unique label&lt;/li&gt;
+&lt;li&gt;Checks for duplicates using &lt;code&gt;my/org-snippet-get-unique-label&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Inserts the appropriate &lt;code&gt;#+label:&lt;/code&gt; and &lt;code&gt;#+begin_...&lt;/code&gt; / &lt;code&gt;#+end_...&lt;/code&gt; blocks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgb1ffbf8" class="outline-3"&gt;
+&lt;h3 id="orgb1ffbf8"&gt;Example: Group Theory&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgb1ffbf8"&gt;
+&lt;div class="definition" id="orgb21271e"&gt;
+&lt;p&gt;
+A &lt;b&gt;group&lt;/b&gt; is a set \(G\) together with a binary operation \(\cdot: G \times G \to G\) satisfying:
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;&lt;b&gt;Closure&lt;/b&gt;: For all \(a, b \in G\), we have \(a \cdot b \in G\)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Associativity&lt;/b&gt;: \((a \cdot b) \cdot c = a \cdot (b \cdot c)\) for all \(a, b, c \in G\)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Identity&lt;/b&gt;: There exists \(e \in G\) such that \(e \cdot a = a \cdot e = a\) for all \(a \in G\)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Inverses&lt;/b&gt;: For each \(a \in G\), there exists \(a^{-1} \in G\) such that \(a \cdot a^{-1} = a^{-1} \cdot a = e\)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;div class="theorem" id="orgb5ee31e"&gt;
+&lt;p&gt;
+&lt;b&gt;(Lagrange’s Theorem)&lt;/b&gt; Let \(G\) be a finite group and \(H\) a subgroup of \(G\). Then the order of \(H\) divides the order of \(G\):
+\[|G| = |H| \cdot [G:H]\]
+where \([G:H]\) denotes the index of \(H\) in \(G\).
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;
+A test of displayed equations:
+\[a+b\]
+&lt;/p&gt;
+
+&lt;div class="proof" id="org104ff34"&gt;
+&lt;p&gt;
+Consider the left cosets of \(H\) in \(G\). Each coset \(gH = \{gh : h \in H\}\) has exactly \(|H|\) elements. Moreover, the cosets partition \(G\) into disjoint sets. If there are \(k\) distinct cosets, then:
+\[|G| = k \cdot |H| = [G:H] \cdot |H|\]
+Thus \(|H|\) divides \(|G|\). \qed
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="corollary" id="org208c91e"&gt;
+&lt;p&gt;
+If \(G\) is a group of prime order \(p\), then \(G\) is cyclic.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="lemma" id="orga8076da"&gt;
+&lt;p&gt;
+A non-empty subset \(H\) of a group \(G\) is a subgroup if and only if \(ab^{-1} \in H\) for all \(a, b \in H\).
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgff879e6" class="outline-3"&gt;
+&lt;h3 id="orgff879e6"&gt;Cross-Referencing with &lt;code&gt;C-c r&lt;/code&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgff879e6"&gt;
+&lt;p&gt;
+The &lt;code&gt;cross-refs.el&lt;/code&gt; library provides smart cross-referencing. To reference a theorem, type the context word and press &lt;code&gt;C-c r&lt;/code&gt;:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Type “theorem” then &lt;code&gt;C-c r&lt;/code&gt; → prompts for labels starting with &lt;code&gt;thm:&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Type “definition” then &lt;code&gt;C-c r&lt;/code&gt; → prompts for &lt;code&gt;def:&lt;/code&gt; labels&lt;/li&gt;
+&lt;li&gt;Type “lemma” then &lt;code&gt;C-c r&lt;/code&gt; → prompts for &lt;code&gt;lem:&lt;/code&gt; labels&lt;/li&gt;
+&lt;li&gt;Type “equation” then &lt;code&gt;C-c r&lt;/code&gt; → prompts for &lt;code&gt;eq:&lt;/code&gt; labels&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Examples:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;By &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb5ee31e"&gt;No description for this link&lt;/a&gt;, every subgroup divides the order.&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb21271e"&gt;No description for this link&lt;/a&gt; for the group axioms.&lt;/li&gt;
+&lt;li&gt;The proof is in &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org104ff34"&gt;No description for this link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;From &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org208c91e"&gt;No description for this link&lt;/a&gt;, prime-order groups are cyclic.&lt;/li&gt;
+&lt;li&gt;We can reference the theorem &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org40be6ab"&gt;No description for this link&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge7155b1" class="outline-2"&gt;
+&lt;h2 id="orge7155b1"&gt;Advanced Mathematics&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orge7155b1"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6430644" class="outline-3"&gt;
+&lt;h3 id="org6430644"&gt;Ring Theory&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6430644"&gt;
+&lt;div class="definition" id="org9a6a710"&gt;
+&lt;p&gt;
+A &lt;b&gt;ring&lt;/b&gt; is a set \(R\) equipped with two binary operations \(+\) (addition) and \(\cdot\) (multiplication) such that:
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;\((R, +)\) is an abelian group&lt;/li&gt;
+&lt;li&gt;Multiplication is associative&lt;/li&gt;
+&lt;li&gt;The distributive laws hold: \(a \cdot (b + c) = a \cdot b + a \cdot c\) and \((a + b) \cdot c = a \cdot c + b \cdot c\)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;div class="theorem" id="org4f3300c"&gt;
+&lt;p&gt;
+&lt;b&gt;(First Isomorphism Theorem)&lt;/b&gt; Let \(\varphi: R \to S\) be a ring homomorphism. Then:
+\[R / \ker(\varphi) \cong \mathrm{Im}(\varphi)\]
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org1222d6c" class="outline-3"&gt;
+&lt;h3 id="org1222d6c"&gt;Complex Analysis&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1222d6c"&gt;
+&lt;div class="definition" id="org252eedb"&gt;
+&lt;p&gt;
+A function \(f: U \to \mathbb{C}\) defined on an open set \(U \subseteq \mathbb{C}\) is &lt;b&gt;holomorphic&lt;/b&gt; if it is complex differentiable at every point in \(U\).
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="theorem" id="org40be6ab"&gt;
+&lt;p&gt;
+&lt;b&gt;(Cauchy’s Integral Formula)&lt;/b&gt; Let \(f\) be holomorphic in a simply connected domain \(D\), and let \(\gamma\) be a simple closed contour in \(D\) oriented counterclockwise. For any \(a\) inside \(\gamma\):
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+\begin{equation}
+\label{orgb852b63}
+f(a) = \frac{1}{2\pi i} \oint_{\gamma} \frac{f(z)}{z - a} \, dz
+\end{equation}
+
+&lt;div class="corollary" id="orgff108ed"&gt;
+&lt;p&gt;
+&lt;b&gt;(Liouville’s Theorem)&lt;/b&gt; Every bounded entire function is constant.
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgf5f1786" class="outline-3"&gt;
+&lt;h3 id="orgf5f1786"&gt;Graph Theory Example&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf5f1786"&gt;
+&lt;div class="definition" id="orgc6036cc"&gt;
+&lt;p&gt;
+A &lt;b&gt;graph&lt;/b&gt; \(G = (V, E)\) consists of a set \(V\) of vertices and a set \(E \subseteq \binom{V}{2}\) of edges.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class="theorem" id="orga9a428b"&gt;
+&lt;p&gt;
+&lt;b&gt;(Handshaking Lemma)&lt;/b&gt; In any graph \(G = (V, E)\):
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+\begin{equation}
+\label{orga59ba67}
+\sum_{v \in V} \deg(v) = 2|E|
+\end{equation}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org0bbba30" class="outline-2"&gt;
+&lt;h2 id="org0bbba30"&gt;Equations and Alignment&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org0bbba30"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgb38c63a" class="outline-3"&gt;
+&lt;h3 id="orgb38c63a"&gt;Single Equations&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgb38c63a"&gt;
+&lt;p&gt;
+Use &lt;code&gt;&amp;lt;f6&amp;gt; e&lt;/code&gt; to insert labeled equations:
+&lt;/p&gt;
+
+\begin{equation}
+\label{org0dce2c2}
+e^{i\pi} + 1 = 0
+\end{equation}
+
+&lt;p&gt;
+The famous Equation \eqref{org0dce2c2} connects five fundamental constants.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgf3148c7" class="outline-3"&gt;
+&lt;h3 id="orgf3148c7"&gt;Aligned Equations&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf3148c7"&gt;
+\begin{align}
+\label{org11ecf76}
+ax^2 + bx + c &amp;amp;= 0 \\
+x^2 + \frac{b}{a}x + \frac{c}{a} &amp;amp;= 0 \\
+x^2 + \frac{b}{a}x &amp;amp;= -\frac{c}{a} \\
+x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} &amp;amp;= \frac{b^2}{4a^2} - \frac{c}{a} \\
+\left(x + \frac{b}{2a}\right)^2 &amp;amp;= \frac{b^2 - 4ac}{4a^2} \\
+x &amp;amp;= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{align}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgc91696d" class="outline-3"&gt;
+&lt;h3 id="orgc91696d"&gt;System of Equations&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgc91696d"&gt;
+&lt;p&gt;
+Consider the linear system:
+&lt;/p&gt;
+
+\begin{equation}
+\label{org24d6bd3}
+\begin{cases}
+  2x + 3y - z = 1 \\
+  x - y + 2z = 4 \\
+  3x + 2y + z = 5
+\end{cases}
+\end{equation}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2456335" class="outline-2"&gt;
+&lt;h2 id="org2456335"&gt;Integration with Org-Roam&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2456335"&gt;
+&lt;p&gt;
+This configuration uses &lt;code&gt;org-roam&lt;/code&gt; for networked note-taking. Create links to other notes:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Use &lt;code&gt;&amp;lt;f8&amp;gt; f&lt;/code&gt; to find or create a roam note&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;&amp;lt;f8&amp;gt; i&lt;/code&gt; to insert a link to a roam note&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;&amp;lt;f5&amp;gt; d&lt;/code&gt; to search within all roam notes using &lt;code&gt;consult-ripgrep&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org65bd294" class="outline-3"&gt;
+&lt;h3 id="org65bd294"&gt;Org-Roam Search&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org65bd294"&gt;
+&lt;p&gt;
+Use &lt;code&gt;&amp;lt;f5&amp;gt; d&lt;/code&gt; (&lt;code&gt;bms/org-roam-rg-search&lt;/code&gt;) to search across all notes in &lt;code&gt;my-notes-directory&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org5410802" class="outline-2"&gt;
+&lt;h2 id="org5410802"&gt;Bibliography and Citations&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5410802"&gt;
+&lt;p&gt;
+This configuration uses &lt;code&gt;citar&lt;/code&gt; with &lt;code&gt;bibtex&lt;/code&gt; for bibliography management.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org548a2dc" class="outline-3"&gt;
+&lt;h3 id="org548a2dc"&gt;Citation Workflow&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org548a2dc"&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Press &lt;code&gt;&amp;lt;f7&amp;gt;&lt;/code&gt; to open &lt;code&gt;citar-open&lt;/code&gt; (search bibliography)&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;&amp;lt;f5&amp;gt; b&lt;/code&gt; to insert a citation with &lt;code&gt;citar-insert-bibtex&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;In bibtex-mode, press &lt;code&gt;&amp;lt;f5&amp;gt; b&lt;/code&gt; to use &lt;code&gt;bibretrieve&lt;/code&gt; to fetch entries&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;C-c C-c&lt;/code&gt; in bibtex-mode to generate auto-keys (format: &lt;code&gt;year-author-title&lt;/code&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org09eaee2" class="outline-3"&gt;
+&lt;h3 id="org09eaee2"&gt;Example Citations&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org09eaee2"&gt;
+&lt;p&gt;
+Important results in graph theory can be found in standard references. The chromatic polynomial was introduced by Birkhoff, and Tutte’s work on matroids extended these ideas significantly.
+&lt;/p&gt;
+
+&lt;p&gt;
+Integration with &lt;code&gt;citar-org-roam&lt;/code&gt; allows literature notes to be created automatically with the “r” template.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgdc6d141" class="outline-2"&gt;
+&lt;h2 id="orgdc6d141"&gt;Python and Jupyter Integration&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgdc6d141"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgd748dbc" class="outline-3"&gt;
+&lt;h3 id="orgd748dbc"&gt;Basic Python Source Block&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgd748dbc"&gt;
+&lt;p&gt;
+Use the &lt;code&gt;src-python&lt;/code&gt; snippet or type &lt;code&gt;&amp;lt;j&lt;/code&gt; for jupyter-python blocks:
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;numpy&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;plt&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Generate data&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;linspace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Simple calculation&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;"Maximum value of sin(x): &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;"Minimum value of sin(x): &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org171376a" class="outline-3"&gt;
+&lt;h3 id="org171376a"&gt;Jupyter Integration&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org171376a"&gt;
+&lt;p&gt;
+The configuration includes &lt;code&gt;emacs-jupyter&lt;/code&gt; for interactive computing. Note the workaround for the login error and the manual &lt;code&gt;zmq&lt;/code&gt; compilation requirement.
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;import numpy as np
+import sympy as sp
+
+# Symbolic mathematics with SymPy
+x, y = sp.symbols('x y')
+expr = sp.sin(x)**2 + sp.cos(x)**2
+simplified = sp.simplify(expr)
+print(f"Simplified: {simplified}")
+
+# Calculus
+f = sp.sin(x) * sp.exp(x)
+derivative = sp.diff(f, x)
+integral = sp.integrate(f, x)
+print(f"f(x) = {f}")
+print(f"f'(x) = {derivative}")
+print(f"Integral of f(x)dx = {integral}")
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org60dc8d4" class="outline-3"&gt;
+&lt;h3 id="org60dc8d4"&gt;Data Visualization&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org60dc8d4"&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;plt&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;numpy&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;np&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Create figure&lt;/span&gt;
+&lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;subplots&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;figsize&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Plot 1: Trigonometric functions&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;linspace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'sin(x)'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cos&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'cos(x)'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'x'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_ylabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'y'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Trigonometric Functions'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;ax1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;grid&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;alpha&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Plot 2: Polynomial&lt;/span&gt;
+&lt;span class="n"&gt;x2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;linspace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x2&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;x2&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;x2&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'red'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'x'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_ylabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'y'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Cubic Polynomial'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;grid&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;alpha&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;axhline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'k'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;ax2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;axvline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'k'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tight_layout&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'sample2_plot.png'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dpi&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;bbox_inches&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'tight'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;'sample2_plot.png'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org26cc720" class="outline-2"&gt;
+&lt;h2 id="org26cc720"&gt;Tables and Data&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org26cc720"&gt;
+&lt;p&gt;
+Org-mode tables are powerful for organizing data:
+&lt;/p&gt;
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-right"&gt;
+
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;Theorem&lt;/th&gt;
+&lt;th scope="col" class="org-right"&gt;Section&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Reference&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Key Result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Lagrange&lt;/td&gt;
+&lt;td class="org-right"&gt;2.1&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb5ee31e"&gt;No description for this link&lt;/a&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Subgroup order divides&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Cauchy Integral&lt;/td&gt;
+&lt;td class="org-right"&gt;3.2&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org40be6ab"&gt;No description for this link&lt;/a&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Holomorphic function value&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Handshaking&lt;/td&gt;
+&lt;td class="org-right"&gt;3.3&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orga9a428b"&gt;No description for this link&lt;/a&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Sum of degrees = 2|E|&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;First Iso. Thm.&lt;/td&gt;
+&lt;td class="org-right"&gt;3.1&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#org4f3300c"&gt;No description for this link&lt;/a&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Kernel and image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;
+Use &lt;code&gt;C-c |&lt;/code&gt; to create tables, and the table will auto-format as you type.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgfb7a650" class="outline-3"&gt;
+&lt;h3 id="orgfb7a650"&gt;Calculations in Tables&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgfb7a650"&gt;
+&lt;p&gt;
+Org tables support formulas:
+&lt;/p&gt;
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-right"&gt;
+
+&lt;col class="org-right"&gt;
+
+&lt;col class="org-right"&gt;
+
+&lt;col class="org-right"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-right"&gt;\(n\)&lt;/th&gt;
+&lt;th scope="col" class="org-right"&gt;\(n^2\)&lt;/th&gt;
+&lt;th scope="col" class="org-right"&gt;\(n^3\)&lt;/th&gt;
+&lt;th scope="col" class="org-right"&gt;\(2^n\)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-right"&gt;1&lt;/td&gt;
+&lt;td class="org-right"&gt;1&lt;/td&gt;
+&lt;td class="org-right"&gt;1&lt;/td&gt;
+&lt;td class="org-right"&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-right"&gt;2&lt;/td&gt;
+&lt;td class="org-right"&gt;4&lt;/td&gt;
+&lt;td class="org-right"&gt;8&lt;/td&gt;
+&lt;td class="org-right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-right"&gt;3&lt;/td&gt;
+&lt;td class="org-right"&gt;9&lt;/td&gt;
+&lt;td class="org-right"&gt;27&lt;/td&gt;
+&lt;td class="org-right"&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-right"&gt;4&lt;/td&gt;
+&lt;td class="org-right"&gt;16&lt;/td&gt;
+&lt;td class="org-right"&gt;64&lt;/td&gt;
+&lt;td class="org-right"&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-right"&gt;5&lt;/td&gt;
+&lt;td class="org-right"&gt;25&lt;/td&gt;
+&lt;td class="org-right"&gt;125&lt;/td&gt;
+&lt;td class="org-right"&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-right"&gt;6&lt;/td&gt;
+&lt;td class="org-right"&gt; &lt;/td&gt;
+&lt;td class="org-right"&gt; &lt;/td&gt;
+&lt;td class="org-right"&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orga3964df" class="outline-2"&gt;
+&lt;h2 id="orga3964df"&gt;Export Options&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orga3964df"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6568ef7" class="outline-3"&gt;
+&lt;h3 id="org6568ef7"&gt;LaTeX/PDF Export&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6568ef7"&gt;
+&lt;p&gt;
+This document can be exported to LaTeX/PDF with &lt;code&gt;C-c C-e l p&lt;/code&gt;:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Custom &lt;code&gt;#+LATEX_HEADER&lt;/code&gt; declarations define theorem environments&lt;/li&gt;
+&lt;li&gt;All &lt;code&gt;#+begin_theorem&lt;/code&gt; blocks export correctly&lt;/li&gt;
+&lt;li&gt;Cross-references work in the PDF output&lt;/li&gt;
+&lt;li&gt;Math fragments render beautifully&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6e3d0bf" class="outline-3"&gt;
+&lt;h3 id="org6e3d0bf"&gt;Jupyter Notebook Export&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6e3d0bf"&gt;
+&lt;p&gt;
+With &lt;code&gt;ox-ipynb&lt;/code&gt;, export to &lt;code&gt;.ipynb&lt;/code&gt; format:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Use &lt;code&gt;C-c C-e&lt;/code&gt; and select the ipynb export option&lt;/li&gt;
+&lt;li&gt;Python and Jupyter source blocks become notebook cells&lt;/li&gt;
+&lt;li&gt;Markdown sections become markdown cells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org9866a62" class="outline-2"&gt;
+&lt;h2 id="org9866a62"&gt;Advanced Features Showcase&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org9866a62"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org4a13cd3" class="outline-3"&gt;
+&lt;h3 id="org4a13cd3"&gt;Embark Actions&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4a13cd3"&gt;
+&lt;p&gt;
+With &lt;code&gt;embark&lt;/code&gt; (bound to &lt;code&gt;C-=&lt;/code&gt;):
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;In file completion, press &lt;code&gt;C-=&lt;/code&gt; then &lt;code&gt;L&lt;/code&gt; to insert an org link&lt;/li&gt;
+&lt;li&gt;Use embark on citar results to open PDFs, bibtex entries, or notes&lt;/li&gt;
+&lt;li&gt;Combine with &lt;code&gt;consult&lt;/code&gt; for powerful navigation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orga73e2ff" class="outline-3"&gt;
+&lt;h3 id="orga73e2ff"&gt;Consult Commands&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga73e2ff"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f5&amp;gt; l&lt;/code&gt; → &lt;code&gt;consult-line&lt;/code&gt; for searching current buffer&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f5&amp;gt; r&lt;/code&gt; → &lt;code&gt;consult-ripgrep&lt;/code&gt; for project-wide search&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;f5&amp;gt; d&lt;/code&gt; → &lt;code&gt;bms/org-roam-rg-search&lt;/code&gt; for org-roam specific search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge25b299" class="outline-3"&gt;
+&lt;h3 id="orge25b299"&gt;Smartparens&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge25b299"&gt;
+&lt;p&gt;
+The &lt;code&gt;smartparens&lt;/code&gt; configuration handles paired delimiters:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;In org-mode, &lt;code&gt;|&lt;/code&gt; is paired for absolute values: \(|x|\)&lt;/li&gt;
+&lt;li&gt;In org-mode, &lt;code&gt;=&lt;/code&gt;  is paired for verbatim text: &lt;code&gt;code&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Works with all bracket types: \(\{x \in \mathbb{R} : x &amp;gt; 0\}\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgfdd38b4" class="outline-3"&gt;
+&lt;h3 id="orgfdd38b4"&gt;Org-Fragtog&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgfdd38b4"&gt;
+&lt;p&gt;
+LaTeX fragments preview automatically as you move the cursor:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Fragments render when cursor leaves them&lt;/li&gt;
+&lt;li&gt;Inline math like \(\sum_{i=1}^{n} i = \frac{n(n+1)}{2}\) appears immediately&lt;/li&gt;
+&lt;li&gt;Display math previews in place&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org540d169" class="outline-2"&gt;
+&lt;h2 id="org540d169"&gt;GTD and Task Management&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org540d169"&gt;
+&lt;p&gt;
+The configuration includes a GTD (Getting Things Done) setup with Org Capture:
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orga9e598e" class="outline-3"&gt;
+&lt;h3 id="orga9e598e"&gt;Capture Templates&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga9e598e"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;code&gt;C-c c i&lt;/code&gt; → Capture to Inbox (TODO item)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-c c w&lt;/code&gt; → Capture web content with org-protocol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org7a98368" class="outline-3"&gt;
+&lt;h3 id="org7a98368"&gt;Example Tasks&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org7a98368"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org1e9c80c" class="outline-4"&gt;
+&lt;h4 id="org1e9c80c"&gt;&lt;span class="todo TODO"&gt;TODO&lt;/span&gt; Review Lagrange’s Theorem proof&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-org1e9c80c"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Need to verify the coset partition argument&lt;/li&gt;
+&lt;li&gt;Check &lt;a href="https://rvf0068.github.io/nikola-test/posts/mathematics-demo/#orgb5ee31e"&gt;No description for this link&lt;/a&gt; for reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org523a936" class="outline-4"&gt;
+&lt;h4 id="org523a936"&gt;&lt;span class="done DONE"&gt;DONE&lt;/span&gt; Write comprehensive demo file&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-org523a936"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Created sample2.org with extensive examples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6c73d6a" class="outline-3"&gt;
+&lt;h3 id="org6c73d6a"&gt;Org Agenda&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6c73d6a"&gt;
+&lt;p&gt;
+Use &lt;code&gt;C-c a&lt;/code&gt; to open the agenda view, which shows:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Scheduled tasks&lt;/li&gt;
+&lt;li&gt;Deadlines&lt;/li&gt;
+&lt;li&gt;Habit tracking (via &lt;code&gt;org-habit&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Custom agenda views&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org3f6d9b9" class="outline-2"&gt;
+&lt;h2 id="org3f6d9b9"&gt;AI Integration with GPTel&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3f6d9b9"&gt;
+&lt;p&gt;
+The configuration includes &lt;code&gt;gptel&lt;/code&gt; for AI assistance:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Press &lt;code&gt;C-c g&lt;/code&gt; to open GPTel&lt;/li&gt;
+&lt;li&gt;Ask questions about mathematics, LaTeX, or Emacs&lt;/li&gt;
+&lt;li&gt;Get help with proof strategies or problem-solving&lt;/li&gt;
+&lt;li&gt;API key is stored in &lt;code&gt;personal.org&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org9aec84b" class="outline-3"&gt;
+&lt;h3 id="org9aec84b"&gt;Example AI Queries&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org9aec84b"&gt;
+&lt;p&gt;
+Use GPTel to:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;“Explain the intuition behind Lagrange’s theorem”&lt;/li&gt;
+&lt;li&gt;“Generate LaTeX code for a commutative diagram”&lt;/li&gt;
+&lt;li&gt;“Suggest a proof strategy for showing a function is continuous”&lt;/li&gt;
+&lt;li&gt;“Debug my Emacs Lisp function”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org8993882" class="outline-2"&gt;
+&lt;h2 id="org8993882"&gt;Magit Integration&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org8993882"&gt;
+&lt;p&gt;
+Version control with &lt;code&gt;magit&lt;/code&gt; (&lt;code&gt;C-c m&lt;/code&gt;):
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Stage changes with &lt;code&gt;s&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit with &lt;code&gt;c c&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;gptel-magit&lt;/code&gt; for AI-generated commit messages&lt;/li&gt;
+&lt;li&gt;Push/pull with &lt;code&gt;P&lt;/code&gt; / &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org555480b" class="outline-2"&gt;
+&lt;h2 id="org555480b"&gt;PDF Tools and Org-Noter&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org555480b"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6c88784" class="outline-3"&gt;
+&lt;h3 id="org6c88784"&gt;Reading PDFs&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6c88784"&gt;
+&lt;p&gt;
+With &lt;code&gt;pdf-tools&lt;/code&gt;:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Open PDFs in Emacs with native rendering&lt;/li&gt;
+&lt;li&gt;Annotate directly in the PDF&lt;/li&gt;
+&lt;li&gt;Sync with org-noter notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org0b6f1c4" class="outline-3"&gt;
+&lt;h3 id="org0b6f1c4"&gt;Org-Noter Workflow&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0b6f1c4"&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Open a PDF in pdf-tools&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;&amp;lt;f5&amp;gt; n&lt;/code&gt; to start &lt;code&gt;org-noter&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Take notes that sync with PDF page numbers&lt;/li&gt;
+&lt;li&gt;Notes are stored in &lt;code&gt;my-notes-directory&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6de951b" class="outline-2"&gt;
+&lt;h2 id="org6de951b"&gt;Useful Keybinding Reference&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org6de951b"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgdcf3d0a" class="outline-3"&gt;
+&lt;h3 id="orgdcf3d0a"&gt;Global Bindings&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgdcf3d0a"&gt;
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;Key&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Command&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Purpose&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-c a&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;org-agenda&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Open agenda&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-c c&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;org-capture&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Capture item&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-c m&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;magit-status&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Git interface&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-c g&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;gptel&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;AI assistant&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-=&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;embark-act&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Context actions&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;f2 f2&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;indent-line&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Fix indentation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;f2 r&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;recentf&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Recent files&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;super down&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;duplicate-line&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Copy line down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgf80a28d" class="outline-3"&gt;
+&lt;h3 id="orgf80a28d"&gt;Org-Mode Specific&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf80a28d"&gt;
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;Key&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Command&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Purpose&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;C-c r&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;my/org-insert-smart-ref&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Smart cross-reference&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;$&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;math-delimiters-insert&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert math delimiters&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; t&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;thm snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert theorem&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; d&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;def snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert definition&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; l&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;lem snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert lemma&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; c&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;cor snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert corollary&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; p&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;pro snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert proposition&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; e&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;equ snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert equation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f6&amp;gt; f&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;pf snippet&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert proof&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f8&amp;gt; f&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;org-roam-node-find&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Find/create roam note&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f8&amp;gt; i&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;org-roam-node-insert&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert roam link&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f5&amp;gt; d&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;bms/org-roam-rg-search&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Search roam notes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f5&amp;gt; l&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;consult-line&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Search buffer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f5&amp;gt; r&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;consult-ripgrep&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Search project&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgdd3153d" class="outline-3"&gt;
+&lt;h3 id="orgdd3153d"&gt;Bibliography&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgdd3153d"&gt;
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;Key&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Command&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;Purpose&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f7&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;citar-open&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Open citation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f5&amp;gt; b&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;citar-insert-bibtex&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;Insert citation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;&amp;lt;f5&amp;gt; n&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;&lt;code&gt;org-noter&lt;/code&gt;&lt;/td&gt;
+&lt;td class="org-left"&gt;PDF annotation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org9088719" class="outline-2"&gt;
+&lt;h2 id="org9088719"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org9088719"&gt;
+&lt;p&gt;
+This document showcases the major features of the math-emacs configuration:
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Theorem environments with yasnippet (&lt;code&gt;&amp;lt;f6&amp;gt;&lt;/code&gt; keys)&lt;/li&gt;
+&lt;li&gt;Smart cross-referencing (&lt;code&gt;C-c r&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;CDLaTeX for fast math input&lt;/li&gt;
+&lt;li&gt;Math delimiters with &lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Org-roam for networked notes (&lt;code&gt;&amp;lt;f8&amp;gt;&lt;/code&gt; keys)&lt;/li&gt;
+&lt;li&gt;Bibliography with citar (&lt;code&gt;&amp;lt;f7&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;f5&amp;gt; b&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Jupyter/Python integration&lt;/li&gt;
+&lt;li&gt;Modern completion (Vertico/Consult/Embark)&lt;/li&gt;
+&lt;li&gt;GPTel AI assistance (&lt;code&gt;C-c g&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Magit version control (&lt;code&gt;C-c m&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;PDF tools and org-noter&lt;/li&gt;
+&lt;li&gt;Export to LaTeX/PDF and Jupyter notebooks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge837aa0" class="outline-3"&gt;
+&lt;h3 id="orge837aa0"&gt;Next Steps&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge837aa0"&gt;
+&lt;p&gt;
+To explore further:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Read &lt;code&gt;emacs-config.org&lt;/code&gt; for full configuration details&lt;/li&gt;
+&lt;li&gt;Check &lt;code&gt;lisp/cross-refs.el&lt;/code&gt; for cross-reference implementation&lt;/li&gt;
+&lt;li&gt;Explore snippets in &lt;code&gt;snippets/org-mode/&lt;/code&gt; directory&lt;/li&gt;
+&lt;li&gt;Review &lt;code&gt;README.org&lt;/code&gt; for setup instructions&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;personal.org&lt;/code&gt; for private settings (API keys, paths)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2af11cc" class="outline-3"&gt;
+&lt;h3 id="org2af11cc"&gt;Testing This Configuration&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2af11cc"&gt;
+&lt;p&gt;
+To test without affecting your current setup:
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;emacs -Q --eval '(setq user-emacs-directory "/path/to/math-emacs/")' \
+     -l "/path/to/math-emacs/init.el" sample2.org
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/mathematics-demo/</guid><pubDate>Tue, 28 Oct 2025 06:00:00 GMT</pubDate></item><item><title>KaTeX Render Debug</title><link>https://rvf0068.github.io/nikola-test/posts/katex-render-debug/</link><dc:creator>Rafael</dc:creator><description>&lt;div id="outline-container-org349ea96" class="outline-2"&gt;
+&lt;h2 id="org349ea96"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org349ea96"&gt;
 &lt;p&gt;
 Debugging KaTeX rendering for LaTeX equations.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org54dc968" class="outline-2"&gt;
-&lt;h2 id="org54dc968"&gt;Inline Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org54dc968"&gt;
+&lt;div id="outline-container-org0909cb3" class="outline-2"&gt;
+&lt;h2 id="org0909cb3"&gt;Inline Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org0909cb3"&gt;
 &lt;p&gt;
 This should render: \( x^2 + y^2 = z^2 \).
 Also try: \(a + b = c\).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org2a11d9d" class="outline-2"&gt;
-&lt;h2 id="org2a11d9d"&gt;Display Math&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org2a11d9d"&gt;
+&lt;div id="outline-container-org2af883c" class="outline-2"&gt;
+&lt;h2 id="org2af883c"&gt;Display Math&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2af883c"&gt;
 &lt;p&gt;
 Block equation:
 \[
@@ -31,17 +1216,17 @@ With align:
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgbf57ac1" class="outline-2"&gt;
-&lt;h2 id="orgbf57ac1"&gt;Non-Math Test&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgbf57ac1"&gt;
+&lt;div id="outline-container-org4afb786" class="outline-2"&gt;
+&lt;h2 id="org4afb786"&gt;Non-Math Test&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org4afb786"&gt;
 &lt;p&gt;
 Price: \$5 (should not render as math).
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org2837ec0" class="outline-2"&gt;
-&lt;h2 id="org2837ec0"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org2837ec0"&gt;
+&lt;div id="outline-container-orgf398b66" class="outline-2"&gt;
+&lt;h2 id="orgf398b66"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgf398b66"&gt;
 &lt;p&gt;
 KaTeX should render \(...\)$ and \[...\].
 Write your post here.
@@ -104,17 +1289,17 @@ This is also an image:
 &lt;/p&gt;</description><guid>https://rvf0068.github.io/nikola-test/posts/testing-mathematics/</guid><pubDate>Fri, 26 Sep 2025 01:09:36 GMT</pubDate></item><item><title>Testing</title><link>https://rvf0068.github.io/nikola-test/posts/testing/</link><dc:creator>Rafael</dc:creator><description>&lt;p&gt;
 Write your post here.
 &lt;/p&gt;
-&lt;div id="outline-container-org9c4a79f" class="outline-2"&gt;
-&lt;h2 id="org9c4a79f"&gt;Introduction&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9c4a79f"&gt;
+&lt;div id="outline-container-org5fc4ecd" class="outline-2"&gt;
+&lt;h2 id="org5fc4ecd"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5fc4ecd"&gt;
 &lt;p&gt;
 This is my first post written in org-mode. It's simple and powerful!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org9e95057" class="outline-2"&gt;
-&lt;h2 id="org9e95057"&gt;Why org-mode?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9e95057"&gt;
+&lt;div id="outline-container-orge505123" class="outline-2"&gt;
+&lt;h2 id="orge505123"&gt;Why org-mode?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orge505123"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Outlines and headings are easy.&lt;/li&gt;
 &lt;li&gt;Code blocks:&lt;/li&gt;
@@ -124,9 +1309,9 @@ This is my first post written in org-mode. It's simple and powerful!
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org45c5add" class="outline-2"&gt;
-&lt;h2 id="org45c5add"&gt;Conclusion&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org45c5add"&gt;
+&lt;div id="outline-container-org83b9af8" class="outline-2"&gt;
+&lt;h2 id="org83b9af8"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org83b9af8"&gt;
 &lt;p&gt;
 Excited to blog this way!
 &lt;/p&gt;
