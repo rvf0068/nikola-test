@@ -124,10 +124,14 @@ contextual information."
 (defun org-file-link-img-url-export (path desc format)
   (cond
    ((eq format 'html)
-    ;; Keep relative paths relative, only add / for absolute paths
-    (let ((src (if (string-prefix-p "/" path)
-                   path
-                 path)))
+    ;; Convert paths intelligently:
+    ;; - Paths starting with / are kept as absolute
+    ;; - Paths starting with "images/" become "/images/" (absolute from site root)
+    ;; - Other paths remain relative
+    (let ((src (cond
+                ((string-prefix-p "/" path) path)
+                ((string-prefix-p "images/" path) (concat "/" path))
+                (t path))))
       (format "<img src=\"%s\" alt=\"%s\"/>" src (or desc ""))))))
 (org-add-link-type "file" nil 'org-file-link-img-url-export)
 
